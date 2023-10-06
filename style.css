@@ -1,0 +1,104 @@
+body {
+  padding-top: 3rem;
+  color: rgb(var(--bs-tertiary-color-rgb));
+  background-color: #5555;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand span {
+  color: #b6895b;
+}
+
+.nav-item:hover {
+  background-color: #b6895b;
+  border-radius: 3px;
+  transition: ease-in-out 0.1s;
+}
+
+.img-fluid {
+  border-radius: 10px;
+}
+
+.menuu {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.menuu span {
+  color: #b6895b;
+}
+
+.judul h1 span {
+  color: #b6895b;
+}
+
+.lead {
+  font-weight: 100;
+}
+
+.harga {
+  text-decoration: none;
+}
+
+.carousel {
+  max-height: 500px;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing .col-6 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing .col-12 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+  .marketing .row .col-lg-4 p{
+    margin-right: 1rem;
+    margin-left: 1rem;
+    }
+
+.marketing h2 span {
+  color: #b6895b;
+}
+
+.featurette-divider {
+  margin: 1rem 0;
+}
+
+.footer-divider {
+  margin: 1rem 0;
+}
+
+@media (max-width: 1366px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 758px) {
+  html {
+    font-size: 62.5%;
+  }
+  
+  .navbar-brand img{
+    width: 18px;
+    height: 14.4px;
+  }
+
+  .marketing .row .col-lg-4 p{
+    margin-right: 3rem;
+    margin-left: 3rem;
+    }
+
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+}
